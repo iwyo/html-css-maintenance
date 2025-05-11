@@ -46,13 +46,13 @@ This template is perfect for:
 ├── index.html
 ├── styles.css
 └── images/
-├── arrow.png
-├── facebook.png
-├── favicon.ico
-├── github.png
-├── linkedin.png
-├── maintenance.png
-└── preview.png
+  ├── arrow.png
+  ├── facebook.png
+  ├── favicon.ico
+  ├── github.png
+  ├── linkedin.png
+  ├── maintenance.png
+  └── preview.png
 ```
 
 ---
