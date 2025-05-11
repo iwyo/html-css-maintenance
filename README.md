@@ -55,7 +55,7 @@ This template is perfect for:
 ## 📸 Preview
 
 ```html
-<!-- ![Maintenance Page Screenshot](preview.png) -->
+![Maintenance Page Screenshot](images/preview.png)
 ```
 
 ---
