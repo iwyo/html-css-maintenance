@@ -12,7 +12,7 @@ Designed for developers and designers who want to display a styled "under mainte
 
 ## 🌐 Live Demo
 
-You can view the live version of this template here:  
+You can view the live version of this template here:
 👉 [Live Page](https://iwyo.github.io/html-css-maintenance/)
 
 ---
