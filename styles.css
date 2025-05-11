@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter, Arial;
+    color: white;
+}
+
+html {
+    background-color: #1E1E1E;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container h1,
+.toolbox-img,
+.circle-background,
+.main-container h4,
+.img-down-arrow,
+.button-container {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.main-container h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    animation-delay: 0.1s;
+}
+
+.toolbox-wrapper {
+    position: relative;
+    width: 200px;
+    margin-bottom: 20px;
+    animation-delay: 0.2s;
+}
+
+.circle-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+    z-index: 0;
+    animation-delay: 0.3s;
+}   
+
+.toolbox-img {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  animation-delay: 0.2s;
+}
+
+.main-container h4 {
+    font-weight: 600;
+    font-style: italic;
+    color: #A0A0A0;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 10px;
+    animation-delay: 0.4s;
+}
+
+.img-down-arrow {
+    width: 20px;
+    margin-bottom: 30px;
+    animation-delay: 0.5s;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border: 1px solid #A0A0A0;
+    border-radius: 2px;
+    gap: 20px;
+    animation-delay: 0.6s;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row-reverse;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    gap: 6px;
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.btn-github {
+    background-color: white;
+}
+
+.btn-github p {
+    color: black;
+    font-weight: 600;
+}
+
+.btn-facebook {
+    background-color: #0866FF;
+}
+
+.btn-facebook p {
+    font-weight: 600;
+}
+
+.btn-linkedin {
+    background-color: #0A66C2;
+}
+
+.btn-linkedin p {
+    font-weight: 600;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
