@@ -45,8 +45,14 @@ This template is perfect for:
 │
 ├── index.html
 ├── styles.css
-└── assets/
-└── toolbox.png
+└── images/
+├── arrow.png
+├── facebook.png
+├── favicon.ico
+├── github.png
+├── linkedin.png
+├── maintenance.png
+└── preview.png
 ```
 
 ---
